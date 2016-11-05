@@ -1,0 +1,31 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/reports
+/yuidoc/docs
+/docs
+
+# dependencies
+/node_modules
+/bower_components
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+*.DS_Store
+*.log
+
+# Babel temp files
+*-compiled.js
+*.js.map
+
+# Webstorm
+.idea
+
+enps_mopck_data_loader-0.0.2.gem
