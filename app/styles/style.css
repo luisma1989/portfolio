@@ -351,14 +351,19 @@ tuor:visited {
 }
 
 .about_phone img {
-    width: 500px;
+  width: 346px;
+  height: 387px;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
     .about_phone img {
         margin-top: 184px;
         width: 200px;
-        margin-right: 20%
+        margin-right: 20%;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
     }
 }
 
