@@ -1,0 +1,121 @@
+/*---------------------------------------
+   SECTION FEATURES
+-----------------------------------------*/
+
+.features {
+    background-color: #f1f1f1
+}
+
+.feature_inner {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.feature_iphone {}
+
+.feature_iphone img {
+    width: 100%;
+}
+
+.right_single_feature {
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 65px;
+    margin-top: 35px;
+}
+
+.right_single_feature div {
+    position: absolute;
+    font-size: 40px;
+    color: #f39c12;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    top: -8px;
+}
+
+.right_single_feature h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333333;
+}
+
+.right_single_feature h3 span {
+    color: #f39c12;
+}
+
+.right_single_feature p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+/*left feature*/
+
+.left_single_feature {
+    position: relative;
+    padding-right: 90px;
+    margin-bottom: 65px;
+    text-align: right;
+    margin-top: 35px;
+}
+
+.left_single_feature div {
+    position: absolute;
+    font-size: 40px;
+    color: #f39c12;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    top: -8px;
+}
+
+.left_single_feature h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333333;
+}
+
+.left_single_feature h3 span {
+    color: #f39c12;
+}
+
+.left_single_feature p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.right_no_padding {
+    padding-left: 15px;
+}
+
+.left_no_padding {
+    padding-right: 15px;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .right_single_feature {
+        margin-left: -60px;
+    }
+    .left_single_feature {
+        margin-right: -60px;
+    }
+    .feature_iphone {
+        margin-top: 35px;
+    }
+    .right_single_feature h3,
+    .left_single_feature h3 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+}

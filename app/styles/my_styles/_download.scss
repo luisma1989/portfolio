@@ -1,0 +1,97 @@
+/*---------------------------------------
+   SECTION DOWNLOAD
+-----------------------------------------*/
+
+.download {
+    background: #f1f1f1;
+}
+
+.download_screen {
+    padding-top: 45px;
+}
+
+.download_screen img {
+    width: 100%
+}
+
+.available_store {
+    background: #1a1a1a;
+    margin-top: -8px;
+    position: relative;
+}
+
+.available_title {
+    padding-top: 75px;
+}
+
+.available_title h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.available_title p {
+    color: #B5B5B5;
+}
+
+.single_store {
+    text-align: center;
+    border-left: 1px solid #0F1217;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.single_store i {
+    color: #f39c12;
+    text-align: center;
+    opacity: 1;
+    font-size: 40px;
+    padding-top: 90px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.store_inner {
+    position: absolute;
+    bottom: 93px;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.store_inner h2 {
+    text-align: center;
+    font-weight: 300;
+    color: #d7dadb;
+    font-size: 16px;
+}
+
+.single_store:hover {
+    background: #121212;
+}
+
+.single_store:hover i {
+    opacity: 0;
+}
+
+.single_store:hover div.store_inner {
+    opacity: 1;
+}
+
+.no_padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.last {
+    border-right: 1px solid #0F1217;
+}

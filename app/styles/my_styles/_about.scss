@@ -1,0 +1,92 @@
+/*---------------------------------------
+   SECTION ABOUT
+-----------------------------------------*/
+
+.about {
+    background: #F1F1F1;
+}
+
+.inner_about_area {
+    padding-top: 50px;
+}
+
+.inner_about_title {
+    padding-bottom: 50px;
+}
+
+.inner_about_title h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+}
+
+.inner_about_title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 70px;
+    background: #f39c12;
+    height: 1px;
+}
+
+.inner_about_title p {
+    font-size: 19px;
+    line-height: 24px;
+    margin-top: 40px;
+}
+
+.single_about_area {
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
+}
+
+.single_about_area div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.single_about_area div i {
+    font-size: 55px;
+    color: #BABABA;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.single_about_area h3 {
+    color: #343434;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.single_about_area p {
+    color: #727272;
+    font-size: 15px;
+}
+
+.single_about_area:hover div i {
+    color: #f39c12;
+}
+
+.about_phone img {
+    width: 395px;
+    height: 408px;
+    border-radius: 50%;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .about_phone img {
+        width: 395px;
+        height: 408px;
+        border-radius: 50%;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+    }
+}

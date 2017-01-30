@@ -1,0 +1,97 @@
+/*---------------------------------------
+   SECTION SUBSCRIBE
+-----------------------------------------*/
+
+.subscribe {
+    background-image: url(../images/subscribe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.subscribe .section_overlay {
+    padding-bottom: 70px;
+    background: transparent
+}
+
+.subscribe .section_title h2 {
+    color: #eaeaea;
+}
+
+.subscribe .section_title p {
+    color: #a4a4a4;
+}
+
+.subscribe_form {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.subscribe_form .form-group {}
+
+.subscribe_form .form-control {
+    background: transparent;
+    border: 1px solid #575b63;
+    border-radius: 0px;
+    height: 45px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    color: #aeaeae;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.subscribe_form .form-control:focus {
+    background: transparent;
+    border-bottom: 1px solid #f1f1f1;
+    box-shadow: none;
+}
+
+.subs-btn,
+.subs-btn:active,
+.subs-btn:focus,
+.subs-btn:visited {
+    width: 200px;
+    background: transparent;
+    border: 1px solid #f39c12;
+    border-radius: 4px;
+    height: 45px;
+    margin-left: 0px;
+    margin-bottom: 1px;
+    color: #f39c12;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    outline: 0px !important;
+}
+
+.subs-btn:hover {
+    background-color: #f39c12;
+    color: #fff;
+    border-color: #f39c12;
+}
+
+@media (min-width: 300px) {
+    .subscribe_form .form-control {
+        width: 100%
+    }
+}
+
+.subscription-success {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.subscription-error {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}

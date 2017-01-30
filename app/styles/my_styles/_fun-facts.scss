@@ -1,0 +1,48 @@
+/*---------------------------------------
+   SECTION FUN FACTS
+-----------------------------------------*/
+
+.fun_facts {
+    background: url(../images/fun_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.fun_facts .section_overlay {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.single_fun_facts {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.single_fun_facts i {
+    color: #f39c12;
+    font-size: 60px;
+    ;
+}
+
+.single_fun_facts h2 {
+    color: #D7DADB;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.single_fun_facts h2 span {
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.single_fun_facts p {
+    color: #D7DADB;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}

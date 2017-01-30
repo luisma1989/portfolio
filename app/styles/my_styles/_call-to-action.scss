@@ -1,0 +1,38 @@
+/*---------------------------------------
+   SECTION CALL TO ACTION
+-----------------------------------------*/
+
+.call_to_action {
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.call_to_action p {
+    color: #dfdfdf;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.call_to_action a {}
+
+.btn-action,
+.btn-action:active,
+.btn-action:focus,
+.btn-action:visited {
+    background: #f39c12;
+    border: 1px solid #f39c12;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.btn-action:hover {
+    background: #FF6B80;
+    border-color: #FF6B80;
+}

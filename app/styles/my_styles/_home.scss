@@ -1,0 +1,181 @@
+/*---------------------------------------
+   SECTION HOME
+-----------------------------------------*/
+
+
+/*menu*/
+
+.header h2 {
+    height: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    margin-top: -100px
+}
+
+.navbar-brand {
+    padding: 9px 15px;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #B5B5B5;
+        font-family: 'Raleway', sans-serif;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #f39c12;
+    }
+    .navbar-default .navbar-nav>li>a:focus {
+        color: #B5B5B5;
+    }
+    .navbar-default {
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s;
+        z-index: 110;
+    }
+    .navbar-brand img {
+        padding-top: 25px;
+        height: 45px;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s;
+    }
+    .navbar-default .navbar-nav>li>a {
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s;
+    }
+    .navbar-nav>li>a {
+        padding-top: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-default {
+        background-color: #fff !important;
+    }
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background: transparent;
+    color: #f39c12;
+}
+
+.header {
+    background: url(../images/home1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .section_overlay {
+    background-color: rgba(33, 33, 33, .75);
+}
+
+.logo {
+    padding-bottom: 50px;
+}
+
+.home_text {
+    text-align: left;
+}
+
+.home-iphone {
+    text-align: right;
+}
+
+.home-iphone img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .home-iphone {
+        display: none;
+    }
+    .home_text {
+        text-align: center;
+    }
+}
+
+.home_text h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 30px
+}
+
+.home_text p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+.download-btn {
+    margin-top: 90px;
+    margin-bottom: 50px
+}
+
+.home-btn,
+.home-btn:focus,
+.home-btn:active,
+.home-btn:visited {
+    background: transparent;
+    border-color: #f39c12;
+    color: #f39c12;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.home-btn:hover {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.tuor,
+.tuor:focus,
+tuor:active,
+tuor:visited {
+    color: #A9ADB0;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+    background: transparent;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.tuor:hover {
+    color: #fff;
+}
+
+.tuor i {
+    font-size: 20px;
+    padding-left: 5px;
+    color: #f39c12;
+}
