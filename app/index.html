@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,13 +27,11 @@
     <link href="styles/owl.carousel.css" rel="stylesheet">
     <link href="styles/owl.theme.css" rel="stylesheet">
 
-
     <!-- Pixeden Icon Font -->
     <link rel="stylesheet" href="styles/Pe-icon-7-stroke.css">
 
     <!-- Font Awesome -->
     <link href="styles/font-awesome.min.css" rel="stylesheet">
-
 
     <!-- PrettyPhoto -->
     <link href="styles/prettyPhoto.css" rel="stylesheet">
@@ -41,20 +40,24 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
     <!-- Style -->
-    <link href="styles/style.css" rel="stylesheet">
+    <link href=".tmp/main.css" rel="stylesheet">
 
     <link href="styles/animate.css" rel="stylesheet">
     <!-- Responsive CSS -->
     <link href="styles/responsive.css" rel="stylesheet">
     <!-- endbuild -->
 
+    <!-- Ventanas modales -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-  </head>
-  <body>
+</head>
 
-  <!-- PRELOADER-->
+<body>
+
+    <!-- PRELOADER-->
     <div class="spn_hol">
         <div class="spinner">
             <div class="bounce1"></div>
@@ -62,9 +65,9 @@
             <div class="bounce3"></div>
         </div>
     </div>
- <!-- END PRELOADER -->
+    <!-- END PRELOADER -->
 
- <!-- =========================
+    <!-- =========================
      START ABOUT US SECTION
 ============================== -->
     <section class="header parallax home-parallax page" id="HOME">
@@ -88,7 +91,7 @@
                             <li><a href="#HOME">HOME</a></li>
                             <li><a href="#ABOUT">Sobre mí</a></li>
                             <li><a href="#FEATURES">Experiencia</a></li>
-                            <li><a href="#SCREENS">Estudios</a></li>
+                            <!--<li><a href="#SCREENS">Estudios</a></li>-->
                             <li><a href="#DOWNLOAD">Tecnologías</a></li>
                             <li><a href="#CONTACT">CONTACTA</a></li>
                         </ul>
@@ -107,9 +110,9 @@
                             <p>Desarrollador Front-End</p>
 
                             <div class="download-btn">
-                            <!-- BUTTON -->
+                                <!-- BUTTON -->
                                 <a class="tuor btn wow fadeInRight" href="#ABOUT">
-                                  SABER MÁS <i class="fa fa-angle-down"></i>
+                                  SABER MÁS <i class="icon-arrow-down"></i>
                                 </a>
                             </div>
                         </div>
@@ -124,7 +127,7 @@
 
 
 
- <!-- =========================
+    <!-- =========================
      START ABOUT US SECTION
 ============================== -->
 
@@ -136,8 +139,7 @@
                     <!-- ABOUT US SECTION TITLE-->
                     <div class="section_title">
                         <h2>SOBRE MÍ</h2>
-                        <p>SOY TÉCNICO SUPERIOR EN SISTEMAS DE TELECOMUNICACIONES E INFORMÁTICOS Y GRADUADO EN SISTEMAS DE INFORMACIÓN,
-                          ADEMÁS CUENTO CON UN MÁSTER EN GESTIÓN DE PROYECTOS</p>
+                        <p>SOY TÉCNICO SUPERIOR EN SISTEMAS DE TELECOMUNICACIONES E INFORMÁTICOS Y GRADUADO EN SISTEMAS DE INFORMACIÓN, ADEMÁS CUENTO CON UN MÁSTER EN GESTIÓN DE PROYECTOS</p>
                     </div>
                 </div>
             </div>
@@ -147,7 +149,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="about_phone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                        <!-- FACE -->
+                            <!-- FACE -->
                             <img class="wow bounceIn" data-wow-duration="1.5s" src="images/face.png" alt="mi imagen">
                         </div>
                     </div>
@@ -156,9 +158,7 @@
                         <div class="inner_about_title">
                             <h2>CUENTO CON UNA GRAN ...</h2>
                             <p>
-                              ...HABILIDAD EN EL APRENDIZAJE AUTÓNOMO EN EL CAMPO DE LA INFORMÁTICA Y ESPECIALMENTE EN EL APARTADO
-                              DEL DESARROLLO FRONT-END. DISPONGO DE UNA ALTA EXPERIENCIA DE TRABAJO EN EQUIPO, ESPECIALMENTE EN EL
-                              MUNDO DEL DESARROLLO WEB.
+                                ...HABILIDAD DE APRENDIZAJE AUTÓNOMO EN EL CAMPO DE LA INFORMÁTICA Y ESPECIALMENTE EN EL APARTADO DEL DESARROLLO FRONT-END. DISPONGO DE UNA ALTA EXPERIENCIA DE TRABAJO EN EQUIPO, ESPECIALMENTE EN EL MUNDO DEL DESARROLLO WEB.
                             </p>
                         </div>
                         <!--
@@ -180,10 +180,10 @@
                                 <p>Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.</p>
                             </div>
                             -->
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <!--
         <div class="video_area">
@@ -217,7 +217,7 @@
 
 
 
- <!-- =========================
+    <!-- =========================
      START TESTIMONIAL SECTION
 ============================== -->
 
@@ -232,6 +232,7 @@
                                 <li data-target="#carousel-example-caption-testimonial" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-caption-testimonial" data-slide-to="1"></li>
                                 <li data-target="#carousel-example-caption-testimonial" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="3"></li>
                             </ol>
 
                             <!-- Wrapper for slides -->
@@ -243,10 +244,11 @@
                                                 <!-- IMAGE -->
                                                 <img src="images/HTML5.png" alt="">
                                                 <div class="testimonial_caption">
-                                                   <!-- DESCRIPTION -->
+                                                    <!-- DESCRIPTION -->
                                                     <h2>HTML5</h2>
                                                     <h4><span>SR. Developer,</span> The Code Cafe</h4>
-                                                    <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
+                                                    <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris nisi ut aliquip
+                                                        ex ea commodo consequat.”</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -256,13 +258,14 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-12 text-center">
-                                                 <!-- IMAGE -->
+                                                <!-- IMAGE -->
                                                 <img src="images/css3.png" alt="">
                                                 <div class="testimonial_caption">
-                                                <!-- DESCRIPTION -->
+                                                    <!-- DESCRIPTION -->
                                                     <h2>CSS3</h2>
                                                     <h4><span>SR. Developer,</span> The Code Cafe</h4>
-                                                    <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
+                                                    <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris nisi ut aliquip
+                                                        ex ea commodo consequat.”</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -275,10 +278,28 @@
                                                 <!-- IMAGE -->
                                                 <img src="images/js.png" alt="">
                                                 <div class="testimonial_caption">
-                                                <!-- DESCRIPTION -->
+                                                    <!-- DESCRIPTION -->
                                                     <h2>JAVASCRIPT</h2>
                                                     <h4><span>SR. Developer,</span> The Code Cafe</h4>
-                                                    <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
+                                                    <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris nisi ut aliquip
+                                                        ex ea commodo consequat.”</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <!-- IMAGE -->
+                                                <img src="images/ember.jpeg" alt="">
+                                                <div class="testimonial_caption">
+                                                    <!-- DESCRIPTION -->
+                                                    <h2>Ember</h2>
+                                                    <h4><span>BBVA mobile</span> Alrededor de un año</h4>
+                                                    <p>Ember.js es un framework JavaScript para crear aplicaciones web del lado del cliente (código abierto). Esta basado en la arquitectura modelo-vista-controlador (MVC) y en el banco lo usamos junto con
+                                                        Handlebars (sistema de templating). </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -298,7 +319,7 @@
 
 
 
-<!-- =========================
+    <!-- =========================
      START FEATURES
 ============================== -->
     <section id="FEATURES" class="features page">
@@ -328,10 +349,9 @@
                             <!-- FEATURE HEADING AND DESCRIPTION -->
                             <h3>REPSOL<span>/</span></h3>
                             <p>Mi primer proyecto como desarrollador, pero con gran responsabilidad.</p>
+                            <a id="demo01" href="/pages/repsol.html">DEMO01</a>
                         </div>
-                            <!-- END SINGLE FEATURE -->
-
-
+                        <!-- END SINGLE FEATURE -->
                         <!-- FEATURE -->
                         <div class="left_single_feature">
                             <!-- ICON -->
@@ -383,7 +403,7 @@
 
 
 
-<!-- =========================
+    <!-- =========================
      START CALL TO ACTION
 ============================== -->
     <div class="call_to_action">
@@ -402,30 +422,27 @@
     <!-- END CALL TO ACTION -->
 
 
-<!-- =========================
+    <!-- =========================
      Start APPS SCREEN SECTION
-============================== -->
+==============================-->
     <section class="apps_screen page" id="SCREENS">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1 wow fadeInBig" data-wow-duration="1s">
-                        <!-- APPS SCREEN TITLE -->
-                        <div class="section_title">
-                            <h2>Screens</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                        </div>
-                        <!-- END APPS SCREEN TITLE -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 wow fadeInBig" data-wow-duration="1s">
+                    <div class="section_title">
+                        <h2>Screens</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                     </div>
                 </div>
             </div>
+        </div>
 
         <div class="screen_slider">
             <div id="demo" class="wow bounceInRight" data-wow-duration="1s">
                 <div id="owl-demo" class="owl-carousel">
 
-                    <!-- APPS SCREEN IMAGES -->
                     <div class="item">
-                    <a href="images/screens/iPhone04.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone04.png" width="60" height="60" alt="APPS SCREEN" /></a>
+                        <a href="images/screens/iPhone04.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone04.png" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
                         <a href="images/screens/iPhone05.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone05.png" width="60" height="60" alt="APPS SCREEN" /></a>
@@ -448,14 +465,13 @@
     </section>
 
 
-
     <!-- ENS APPS SCREEN -->
 
 
 
 
 
-<!-- =========================
+    <!-- =========================
      Start FUN FACTS
 ============================== -->
 
@@ -467,28 +483,28 @@
                     <div class="col-md-3">
                         <div class="single_fun_facts">
                             <i class="pe-7s-cloud-download"></i>
-                            <h2><span  class="counter_num">699</span> <span>+</span></h2>
+                            <h2><span class="counter_num">699</span> <span>+</span></h2>
                             <p>Downloads</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="single_fun_facts">
                             <i class="pe-7s-look"></i>
-                            <h2><span  class="counter_num">1999</span> <span>+</span></h2>
+                            <h2><span class="counter_num">1999</span> <span>+</span></h2>
                             <p>Likes</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="single_fun_facts">
                             <i class="pe-7s-comment"></i>
-                            <h2><span  class="counter_num">199</span> <span>+</span></h2>
+                            <h2><span class="counter_num">199</span> <span>+</span></h2>
                             <p>Feedbacks</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="single_fun_facts">
                             <i class="pe-7s-cup"></i>
-                            <h2><span  class="counter_num">10</span> <span>+</span></h2>
+                            <h2><span class="counter_num">10</span> <span>+</span></h2>
                             <p>Awards</p>
                         </div>
                     </div>
@@ -502,7 +518,7 @@
 
 
 
-<!-- =========================
+    <!-- =========================
      START DOWNLOAD NOW
 ============================== -->
     <section class="download page" id="DOWNLOAD">
@@ -579,7 +595,7 @@
     </section>
     <!-- END DOWNLOAD -->
 
-<!-- =========================
+    <!-- =========================
      START CONTCT FORM AREA
 ============================== -->
     <section class="contact page" id="CONTACT">
@@ -588,8 +604,7 @@
                 <div class="col-md-10 col-md-offset-1 wow bounceIn">
                     <!-- Start Contact Section Title-->
                     <div class="section_title">
-                        <h2>Get in touch</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                        <h2>CONTACTA</h2>
                     </div>
                 </div>
             </div>
@@ -597,7 +612,7 @@
             <div class="contact_form wow bounceIn">
                 <div class="container">
 
-                <!-- START ERROR AND SUCCESS MESSAGE -->
+                    <!-- START ERROR AND SUCCESS MESSAGE -->
                     <div class="form_error text-center">
                         <div class="name_error hide error">Please Enter your name</div>
                         <div class="email_error hide error">Please Enter your Email</div>
@@ -605,9 +620,9 @@
                         <div class="message_error hide error">Please Enter Your Message</div>
                     </div>
                     <div class="Sucess"></div>
-                <!-- END ERROR AND SUCCESS MESSAGE -->
+                    <!-- END ERROR AND SUCCESS MESSAGE -->
 
-                <!-- FORM -->
+                    <!-- FORM -->
                     <form role="form">
                         <div class="row">
                             <div class="col-md-4">
@@ -626,7 +641,7 @@
                     <!-- END FORM -->
                 </div>
             </div>
-
+            <!--
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 wow bounceInLeft">
@@ -647,47 +662,51 @@
                     </div>
                 </div>
             </div>
+          -->
+            <br />
+            <br />
+            <br />
         </div>
     </section>
     <!-- END CONTACT -->
 
-<!-- =========================
+    <!-- =========================
      Start Subscription Form
 ============================== -->
 
 
-
+    <!--
     <section class="subscribe parallax subscribe-parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
         <div class="section_overlay wow lightSpeedIn">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
 
-                        <!-- Start Subscribe Section Title -->
+                        !-- Start Subscribe Section Title --
                         <div class="section_title">
                             <h2>SUBSCRIBE US</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                         </div>
-                        <!-- End Subscribe Section Title -->
+                        !-- End Subscribe Section Title --
                     </div>
                 </div>
             </div>
-
+            !-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES
             <div class="container">
                 <div class="row  wow lightSpeedIn">
                     <div class="col-md-6 col-md-offset-3">
-                        <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
+
                         <div class="subscription-success"></div>
                         <div class="subscription-error"></div>
 
 
                         <form id="mc-form" class="subscribe_form">
                             <div class="form-group">
-                                <!-- EMAIL INPUT BOX -->
+                                !-- EMAIL INPUT BOX --
                                 <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter Email Address">
                             </div>
 
-                                <!-- SUBSCRIBE BUTTON -->
+                                !-- SUBSCRIBE BUTTON --
                             <button type="submit" class="btn btn-default subs-btn">Submit</button>
                         </form>
 
@@ -696,12 +715,13 @@
                 </div>
             </div>
         </div>
+      -->
     </section>
 
     <!-- END SUBSCRIPBE FORM -->
 
 
-<!-- =========================
+    <!-- =========================
      FOOTER
 ============================== -->
 
@@ -711,8 +731,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="copy_right_text">
-                    <!-- COPYRIGHT TEXT -->
-                        <p>Copyright &copy; 2016 <a href="">Bent</a> <span>By </span><a href="http://designscrazed.org/">Designscrazed</a></p>
+                        <!-- COPYRIGHT TEXT -->
+                        <p><span>By </span>LUISMA</p>
                     </div>
                 </div>
 
@@ -727,7 +747,7 @@
     <!-- END FOOTER -->
 
 
-<!-- =========================
+    <!-- =========================
      SCRIPTS
 ============================== -->
 
@@ -736,12 +756,20 @@
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X');
+        ga('send', 'pageview');
     </script>
 
     <!-- build:js scripts/vendor.js -->
@@ -781,5 +809,12 @@
     <script src="scripts/waypoints.min.js"></script>
     <script src="scripts/jquery.counterup.min.js"></script>
     <script src="scripts/script.js"></script>
-  </body>
+    <script src="scripts/animatedModal.min.js"></script>
+    <script>
+        /* $(document).ready(function() {
+                                                                                          $('#demo01').animatedModal({ overflow: scroll });
+                                                                                        });*/
+    </script>
+</body>
+
 </html>

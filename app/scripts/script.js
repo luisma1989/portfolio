@@ -47,7 +47,7 @@ $(document).ready(function() {
     });
 });
 
- // MENU SECTION ACTIVE
+// MENU SECTION ACTIVE
 $(document).ready(function() {
     $('.navbar-nav li a').click(function() {
         $('.navbar-nav li a').parent().removeClass('active');
@@ -76,19 +76,19 @@ $(document).ready(function() {
 
 //SMOOTH MENU SCROOL
 $(function() {
-	'use strict';
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
+    'use strict';
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
 });
 
 // FIX HOME SCREEN HEIGHT
@@ -113,6 +113,7 @@ $(document).ready(function() {
         'use strict';
         parallaxInit();
     });
+
     function parallaxInit() {
         'use strict';
         $('.home-parallax').parallax('30%', 0.1);
@@ -127,14 +128,14 @@ $(document).ready(function() {
     'use strict';
     $('#owl-demo').owlCarousel({
         autoPlay: 3000,
-        items: 4, //10 items above 1000px browser width
+        items: 5, //10 items above 1000px browser width
         itemsDesktop: [1370, 3], //5 items between 1000px and 901px
         itemsDesktopSmall: [900, 2], // betweem 900px and 601px
         itemsTablet: [600, 1], //2 items between 600 and 0
     });
 });
 
- //PRETTYPHOTO
+//PRETTYPHOTO
 $(document).ready(function() {
     'use strict';
     $('a[rel^="prettyPhoto"]').prettyPhoto({
@@ -150,11 +151,11 @@ $(document).ready(function() {
 });
 
 //RESPONSIVE VIDEO
-$(document).ready(function() {
-    'use strict';
-    // Basic FitVids Test
-    $('.video').fitVids();
-});
+// $(document).ready(function() {
+//     'use strict';
+//     // Basic FitVids Test
+//     $('.video').fitVids();
+// });
 
 //MAILCHIMP
 $(document).ready(function() {
@@ -163,6 +164,7 @@ $(document).ready(function() {
         callback: mailchimpCallback,
         url: 'https://themerocks.us9.list-manage.com/subscribe/post?u=f04c804868966b1b4509daa9b&amp;id=ad7b6aba65'
     });
+
     function mailchimpCallback(resp) {
         'use strict';
         if (resp.result === 'success') {
@@ -260,13 +262,13 @@ $(document).ready(function() {
 });
 
 //VIDEO BACKGROUND
-$(document).ready(function() {
-  var videobackground = new $.backgroundVideo($('body'), {
-    'align': 'centerXY',
-    'width': 1280,
-    'height': 720,
-    'path': 'media/',
-    'filename': 'cloud',
-    'types': ['mp4','ogg','webm']
-  });
-});
+// $(document).ready(function() {
+//   var videobackground = new $.backgroundVideo($('body'), {
+//     'align': 'centerXY',
+//     'width': 1280,
+//     'height': 720,
+//     'path': 'media/',
+//     'filename': 'cloud',
+//     'types': ['mp4','ogg','webm']
+//   });
+// });
