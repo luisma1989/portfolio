@@ -23,6 +23,9 @@
     <!-- Bootstrap -->
     <link href="styles/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <!-- Owl Carousel Assets -->
     <link href="styles/owl.carousel.css" rel="stylesheet">
     <link href="styles/owl.theme.css" rel="stylesheet">
@@ -111,8 +114,8 @@
 
                             <div class="download-btn">
                                 <!-- BUTTON -->
-                                <a class="tuor btn wow fadeInRight" href="#ABOUT">
-                                  SABER MÁS <i class="icon-arrow-down"></i>
+                                <a class="btn wow fadeInRight" href="#ABOUT">
+                                  SABER MÁS<i class="material-icons">file_download</i>
                                 </a>
                             </div>
                         </div>
@@ -225,7 +228,7 @@
         <div class="section_overlay">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 wow bounceInDown">
+                    <div class="wow bounceInDown">
                         <div id="carousel-example-caption-testimonial" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
@@ -240,7 +243,7 @@
                                 <div class="item active">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-md-12 text-center">
+                                            <div class="text-center">
                                                 <!-- IMAGE -->
                                                 <img src="images/HTML5.png" alt="">
                                                 <div class="testimonial_caption">
@@ -257,7 +260,7 @@
                                 <div class="item">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-md-12 text-center">
+                                            <div class="text-center">
                                                 <!-- IMAGE -->
                                                 <img src="images/css3.png" alt="">
                                                 <div class="testimonial_caption">
@@ -274,7 +277,7 @@
                                 <div class="item">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-md-12 text-center">
+                                            <div class="text-center">
                                                 <!-- IMAGE -->
                                                 <img src="images/js.png" alt="">
                                                 <div class="testimonial_caption">
@@ -291,12 +294,12 @@
                                 <div class="item">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-md-12 text-center">
+                                            <div class="text-center">
                                                 <!-- IMAGE -->
-                                                <img src="images/ember.jpeg" alt="">
+                                                <img src="images/ember.png" alt="">
                                                 <div class="testimonial_caption">
                                                     <!-- DESCRIPTION -->
-                                                    <h2>Ember</h2>
+                                                    <h2>Ember JS</h2>
                                                     <h4><span>BBVA mobile</span> Alrededor de un año</h4>
                                                     <p>Ember.js es un framework JavaScript para crear aplicaciones web del lado del cliente (código abierto). Esta basado en la arquitectura modelo-vista-controlador (MVC) y en el banco lo usamos junto con
                                                         Handlebars (sistema de templating). </p>
@@ -392,6 +395,26 @@
                             <!-- FEATURE HEADING AND DESCRIPTION -->
                             <h3><span>/</span>BBVA MOBILE</h3>
                             <p>¡Donde me encuentro!</p>
+                            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-fullscreen">
+                                Launch modal fullscreen
+                            </button>
+                        </div>
+                        <!-- Modal fullscreen -->
+                        <div class="modal modal-fullscreen fade" id="modal-fullscreen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                            </div>
+                        </div>
                         </div>
                         <!-- END SINGLE FEATURE -->
                     </div>
@@ -810,6 +833,11 @@
     <script src="scripts/jquery.counterup.min.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/animatedModal.min.js"></script>
+    <!-- include jQuery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    
+    <!-- include bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script>
         /* $(document).ready(function() {
                                                                                           $('#demo01').animatedModal({ overflow: scroll });

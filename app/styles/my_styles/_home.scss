@@ -126,7 +126,27 @@
 
 .download-btn {
     margin-top: 90px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    a,
+    a:focus,
+    a:active,
+    a:visited {
+        color: #A9ADB0;
+        margin-left: 20px;
+        text-transform: uppercase;
+        font-size: 19px;
+        font-weight: 500;
+        background: transparent;
+        transition: all 1s;
+    }
+    a {
+        i {
+            font-size: 32px;
+            padding-left: 5px;
+            color: #f39c12;
+            vertical-align: top;
+        }
+    }
 }
 
 .home-btn,
@@ -152,30 +172,4 @@
 .home-btn:hover {
     background-color: #f39c12;
     color: #fff;
-}
-
-.tuor,
-.tuor:focus,
-tuor:active,
-tuor:visited {
-    color: #A9ADB0;
-    margin-left: 20px;
-    text-transform: uppercase;
-    font-size: 19px;
-    font-weight: 500;
-    background: transparent;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-}
-
-.tuor:hover {
-    color: #fff;
-}
-
-.tuor i {
-    font-size: 20px;
-    padding-left: 5px;
-    color: #f39c12;
 }

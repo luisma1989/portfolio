@@ -7,7 +7,7 @@
 }
 
 .inner_about_area {
-    padding-top: 50px;
+    padding: 50px;
 }
 
 .inner_about_title {
@@ -76,17 +76,15 @@
 }
 
 .about_phone img {
-    width: 395px;
-    height: 408px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
     .about_phone img {
-        width: 395px;
-        height: 408px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
-        border-top-left-radius: 25%;
-        border-top-right-radius: 25%;
     }
 }
