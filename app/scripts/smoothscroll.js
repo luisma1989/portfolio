@@ -12,25 +12,25 @@ function ssc_init() {
     var t = document.documentElement;
     var n = window.innerHeight;
     var r = e.scrollHeight;
-    ssc_root = document.compatMode.indexOf("CSS") >= 0 ? t : e;
+    ssc_root = document.compatMode.indexOf('CSS') >= 0 ? t : e;
     ssc_activeElement = e;
     ssc_initdone = true;
     if (top != self) {
         ssc_frame = true
     } else if (r > n && (e.offsetHeight <= n || t.offsetHeight <= n)) {
-        ssc_root.style.height = "auto";
+        ssc_root.style.height = 'auto';
         if (ssc_root.offsetHeight <= n) {
-            var i = document.createElement("div");
-            i.style.clear = "both";
+            var i = document.createElement('div');
+            i.style.clear = 'both';
             e.appendChild(i)
         }
     }
     if (!ssc_fixedback) {
-        e.style.backgroundAttachment = "scroll";
-        t.style.backgroundAttachment = "scroll"
+        e.style.backgroundAttachment = 'scroll';
+        t.style.backgroundAttachment = 'scroll'
     }
     if (ssc_keyboardsupport) {
-        ssc_addEvent("keydown", ssc_keydown)
+        ssc_addEvent('keydown', ssc_keydown)
     }
 }
 
@@ -103,7 +103,7 @@ function ssc_wheel(e) {
     }
     var t = e.target;
     var n = ssc_overflowingAncestor(t);
-    if (!n || e.defaultPrevented || ssc_isNodeName(ssc_activeElement, "embed") || ssc_isNodeName(t, "embed") && /\.pdf/i.test(t.src)) {
+    if (!n || e.defaultPrevented || ssc_isNodeName(ssc_activeElement, 'embed') || ssc_isNodeName(t, 'embed') && /\.pdf/i.test(t.src)) {
         return true
     }
     var r = e.wheelDeltaX || 0;
@@ -127,7 +127,7 @@ function ssc_keydown(e) {
     if (/input|textarea|embed/i.test(t.nodeName) || t.isContentEditable || e.defaultPrevented || n) {
         return true
     }
-    if (ssc_isNodeName(t, "button") && e.keyCode === ssc_key.spacebar) {
+    if (ssc_isNodeName(t, 'button') && e.keyCode === ssc_key.spacebar) {
         return true
     }
     var r, i = 0,
@@ -197,8 +197,8 @@ function ssc_overflowingAncestor(e) {
                 return ssc_setCache(t, document.body)
             }
         } else if (e.clientHeight + 10 < e.scrollHeight) {
-            overflow = getComputedStyle(e, "").getPropertyValue("overflow");
-            if (overflow === "scroll" || overflow === "auto") {
+            overflow = getComputedStyle(e, '').getPropertyValue('overflow');
+            if (overflow === 'scroll' || overflow === 'auto') {
                 return ssc_setCache(t, e)
             }
         }
@@ -298,7 +298,7 @@ var ssc_uniqueID = function () {
 var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
 
 if (ischrome) {
-    ssc_addEvent("mousedown", ssc_mousedown);
-    ssc_addEvent("mousewheel", ssc_wheel);
-    ssc_addEvent("load", ssc_init)
+    ssc_addEvent('mousedown', ssc_mousedown);
+    ssc_addEvent('mousewheel', ssc_wheel);
+    ssc_addEvent('load', ssc_init)
 }
