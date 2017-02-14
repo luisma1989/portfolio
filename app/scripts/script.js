@@ -5,6 +5,13 @@ $(window).bind('load', function() {
 });
 
 $(document).ready(function() {
+    $('#myNav').click(function() {
+        $('#myNav').css('height', '100%');
+    });
+});
+//MENU APPEAR AND HIDE
+$(document).ready(function() {
+    'use strict';
     $('.modal-fullscreen').on('show.bs.modal', function () {
         setTimeout( function() {
             $('.modal-backdrop').addClass('modal-backdrop-fullscreen');
@@ -13,17 +20,12 @@ $(document).ready(function() {
     $('.modal-fullscreen').on('hidden.bs.modal', function () {
         $('.modal-backdrop').addClass('modal-backdrop-fullscreen');
     });
-});
-//MENU APPEAR AND HIDE
-$(document).ready(function() {
-    'use strict';
     $(window).scroll(function() {
-        'use strict';
         if ($(window).scrollTop() > 80) {
             $('.navbar').css({
                 'margin-top': '0px',
                 'opacity': '1'
-            })
+            });
             $('.navbar-nav>li>a').css({
                 'padding-top': '15px'
             });
@@ -40,7 +42,7 @@ $(document).ready(function() {
             $('.navbar').css({
                 'margin-top': '-100px',
                 'opacity': '0'
-            })
+            });
             $('.navbar-nav>li>a').css({
                 'padding-top': '45px'
             });
