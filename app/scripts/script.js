@@ -4,22 +4,9 @@ $(window).bind('load', function() {
     $('.spn_hol').fadeOut(1500);
 });
 
-$(document).ready(function() {
-    $('#myNav').click(function() {
-        $('#myNav').css('height', '100%');
-    });
-});
 //MENU APPEAR AND HIDE
 $(document).ready(function() {
     'use strict';
-    $('.modal-fullscreen').on('show.bs.modal', function () {
-        setTimeout( function() {
-            $('.modal-backdrop').addClass('modal-backdrop-fullscreen');
-        }, 0);
-    });
-    $('.modal-fullscreen').on('hidden.bs.modal', function () {
-        $('.modal-backdrop').addClass('modal-backdrop-fullscreen');
-    });
     $(window).scroll(function() {
         if ($(window).scrollTop() > 80) {
             $('.navbar').css({

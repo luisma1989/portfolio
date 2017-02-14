@@ -293,12 +293,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <!-- FEATURES SECTION TITLE -->
                     <div class="section_title wow fadeIn" data-wow-duration="1s">
                         <h2>EXPERIENCIA</h2>
                         <p>Gran parte de mi experiencia se centra en el desarrollo de aplicaciones en la parte FRONT.</p>
                     </div>
-                    <!-- END FEATURES SECTION TITLE -->
                 </div>
             </div>
         </div>
@@ -307,53 +305,32 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
-                        <!-- FEATURE -->
-
-                        <div class="left_single_feature">
-                            <!-- ICON -->
+                        <div data-toggle="modal" data-target="#repsolModal" contenteditable="false" class="left_single_feature">
                             <div><i class="material-icons">computer</i></div>
-
-                            <!-- FEATURE HEADING AND DESCRIPTION -->
                             <h3>REPSOL</h3>
-                            <p><a href="pages/repsol.html">Mi primer proyecto como desarrollador, pero con gran responsabilidad.</a></p>
+                            <p>Mi primer proyecto como desarrollador, pero con gran responsabilidad.</a></p>
                         </div>
-                        <!-- END SINGLE FEATURE -->
-                        <!-- FEATURE -->
-                        <div class="left_single_feature">
-                            <!-- ICON -->
+                        <div data-toggle="modal" data-target="#bankiaModal" contenteditable="false" class="left_single_feature">
                             <div><i class="material-icons">devices_other</i></div>
-
-                            <!-- FEATURE HEADING AND DESCRIPTION -->
                             <h3>BANKIA</h3>
                             <p>Proyecto en el que no estuve mucho tiempo pero aprendí nuevas tecnologías.</p>
                         </div>
-                        <!-- END SINGLE FEATURE -->
-
                     </div>
                     <div class="col-md-4">
-                        <div class="feature_iphone">
-                            <!-- FEATURE PHONE IMAGE -->
+                        <div class="img-mac">
                             <img class="wow bounceIn" data-wow-duration="1.5s" src="images/macbook.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
-
-                        <!-- FEATURE -->
-                        <div class="right_single_feature">
-                            <!-- ICON -->
+                        <div data-toggle="modal" data-target="#bbvanetModal" contenteditable="false" class="right_single_feature">
                             <div><i class="material-icons">desktop_windows</i></div>
-
-                            <!-- FEATURE HEADING AND DESCRIPTION -->
                             <h3>BBVA NET</h3>
                             <p>Primera de las etapas de mi paso por este proyecto de transformación digital.</p>
                         </div>
-
-                        <div class="right_single_feature">
+                        <div data-toggle="modal" data-target="#bbvamobileModal" contenteditable="false" class="right_single_feature">
                             <div><i class="material-icons">phone_android</i></div>
                             <h3>BBVA MOBILE</h3>
                             <p>¡Donde me encuentro!</p>
-                            <!-- Modal fullscreen -->
-                            <button class="btn btn-primary" data-toggle="modal" data-target="#myModalFullscreen" contenteditable="false">Open Fullscreen Modal</button>
                         </div>
                     </div>
                 </div>
@@ -527,55 +504,72 @@
         </div>
     </section>
 
-
-
-    <!-- /.container -->
-    <div class="modal fade modal-fullscreen  footer-to-bottom" id="myModalFullscreen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <!-- #repsolModal -->
+    <div class="modal fade modal-fullscreen  footer-to-bottom" id="repsolModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog animated zoomInLeft">
             <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 class="modal-title">Modal title</h4>
-
-                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 class="modal-title">Repsol</h4>
                 <div class="modal-body">
-                    <p class="">One fine body…</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <p class="">Coordinación del equipo frontend del proyecto, así como la interacción entre dicho equipo y los equipos de .NET y Tridion.</p>
+                    <p class="">Evaluar la correcta implementación y los flujos de trabajo implicados de las tareas propias del equipo.</p>
+                    <p class="">Aportando soluciones sobre los casos problemáticos. Establecer los standard y buenas prácticas sobre los que trabajará el equipo, así como seguir su cumplimiento.</p>
+                    <p class="">Interlocutor con el cliente para los asuntos relativos a frontend y usabilidad (UI/UX).</p>
+                    <p class="">Proponer soluciones a las tareas encomendadas, mejorando en la medida de lo posible, la usabilidad de las mismas. Implementar dichas solucione</p>
                 </div>
             </div>
-            <!-- /.modal-content -->
         </div>
-        <!-- /.modal-dialog -->
     </div>
-    <!-- /.modal -->
-
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function(b, o, i, l, e, r) {
-            b.GoogleAnalyticsObject = l;
-            b[l] || (b[l] =
-                function() {
-                    (b[l].q = b[l].q || []).push(arguments)
-                });
-            b[l].l = +new Date;
-            e = o.createElement(i);
-            r = o.getElementsByTagName(i)[0];
-            e.src = 'https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e, r)
-        }(window, document, 'script', 'ga'));
-        ga('create', 'UA-XXXXX-X');
-        ga('send', 'pageview');
-    </script>
-
-    <!-- build:js scripts/vendor.js -->
+    <!-- #bankiaModal -->
+    <div class="modal fade modal-fullscreen  footer-to-bottom" id="bankiaModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog animated zoomInLeft">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 class="modal-title">BANKIA</h4>
+                <div class="modal-body">
+                    <p class="">Coordinación del equipo frontend del proyecto, así como la interacción entre dicho equipo y los equipos de .NET y Tridion.</p>
+                    <p class="">Evaluar la correcta implementación y los flujos de trabajo implicados de las tareas propias del equipo.</p>
+                    <p class="">Aportando soluciones sobre los casos problemáticos. Establecer los standard y buenas prácticas sobre los que trabajará el equipo, así como seguir su cumplimiento.</p>
+                    <p class="">Interlocutor con el cliente para los asuntos relativos a frontend y usabilidad (UI/UX).</p>
+                    <p class="">Proponer soluciones a las tareas encomendadas, mejorando en la medida de lo posible, la usabilidad de las mismas. Implementar dichas solucione</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #bbvanetModal -->
+    <div class="modal fade modal-fullscreen  footer-to-bottom" id="bbvanetModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog animated zoomInLeft">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 class="modal-title">BBVA NET</h4>
+                <div class="modal-body">
+                    <p class="">Coordinación del equipo frontend del proyecto, así como la interacción entre dicho equipo y los equipos de .NET y Tridion.</p>
+                    <p class="">Evaluar la correcta implementación y los flujos de trabajo implicados de las tareas propias del equipo.</p>
+                    <p class="">Aportando soluciones sobre los casos problemáticos. Establecer los standard y buenas prácticas sobre los que trabajará el equipo, así como seguir su cumplimiento.</p>
+                    <p class="">Interlocutor con el cliente para los asuntos relativos a frontend y usabilidad (UI/UX).</p>
+                    <p class="">Proponer soluciones a las tareas encomendadas, mejorando en la medida de lo posible, la usabilidad de las mismas. Implementar dichas solucione</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #bbvamobileModal -->
+    <div class="modal fade modal-fullscreen  footer-to-bottom" id="bbvamobileModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog animated zoomInLeft">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 class="modal-title">BBVA MOBILE</h4>
+                <div class="modal-body">
+                    <p class="">Coordinación del equipo frontend del proyecto, así como la interacción entre dicho equipo y los equipos de .NET y Tridion.</p>
+                    <p class="">Evaluar la correcta implementación y los flujos de trabajo implicados de las tareas propias del equipo.</p>
+                    <p class="">Aportando soluciones sobre los casos problemáticos. Establecer los standard y buenas prácticas sobre los que trabajará el equipo, así como seguir su cumplimiento.</p>
+                    <p class="">Interlocutor con el cliente para los asuntos relativos a frontend y usabilidad (UI/UX).</p>
+                    <p class="">Proponer soluciones a las tareas encomendadas, mejorando en la medida de lo posible, la usabilidad de las mismas. Implementar dichas solucione</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
 
     <!-- build:js scripts/plugins.js -->
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
@@ -590,9 +584,7 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
-    <!-- endbuild -->
 
-    <!-- endbuild -->
     <script src="scripts/jquery.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/owl.carousel.js"></script>
@@ -600,15 +592,7 @@
     <script src="scripts/jquery.parallax-1.1.3.js"></script>
     <script src="scripts/wow.min.js"></script>
     <script src="scripts/script.js"></script>
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.height = "100%";
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.height = "0%";
-        }
-    </script>
+   
 </body>
 
 </html>
