@@ -11,13 +11,12 @@
     padding-bottom: 70px;
 }
 
-.feature_iphone {}
-
-.feature_iphone img {
+.img-mac img {
     width: 100%;
 }
 
 .right_single_feature {
+    cursor: pointer;
     position: relative;
     padding-left: 90px;
     margin-bottom: 65px;
@@ -61,6 +60,7 @@
 /*left feature*/
 
 .left_single_feature {
+    cursor: pointer;
     position: relative;
     padding-right: 90px;
     margin-bottom: 65px;

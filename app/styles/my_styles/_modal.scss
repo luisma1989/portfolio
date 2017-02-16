@@ -1,42 +1,70 @@
-/* .modal-fullscreen */
-
-.modal-fullscreen {
-  background: transparent;
-}
-.modal-fullscreen .modal-content {
-  background: transparent;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.modal-backdrop.modal-backdrop-fullscreen {
-  background: #ffffff;
-}
-.modal-backdrop.modal-backdrop-fullscreen.in {
-  opacity: .97;
-  filter: alpha(opacity=97);
-}
-
-/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
-
-.modal-fullscreen .modal-dialog {
-  margin: 0;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-}
-@media (min-width: 768px) {
-  .modal-fullscreen .modal-dialog {
-    width: 750px;
+/*modal fullscreen */
+.modal.modal-fullscreen {
+  .modal-dialog, .modal-content {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .modal-dialog {
+    margin: 0;
+    width: 100%;
+    animation-duration:0.6s;
+  }
+  .modal-content {
+    border: none;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: inherit;
+    -moz-box-shadow: inherit;
+    -o-box-shadow: inherit;
+    box-shadow: inherit;
+    .modal-body {
+      padding: 20vh 5vw;
+      position: absolute;
+      z-index: 100;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      text-align: justify;
+      width: 78%;
+      height: 100%;
+      padding: 0em 0 15em 22vw;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+      h3 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 7vw;
+        line-height: 0.85;
+        margin: 80px 0;
+      }
+      ul {
+        margin-top: 22px;
+        margin-left: 50px;
+        li {
+          font-family: 'Raleway', sans-serif;
+          font-size: 14px;
+          margin-bottom: 10px;
+        }
+      }
+    }
   }
 }
-@media (min-width: 992px) {
-  .modal-fullscreen .modal-dialog {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .modal-fullscreen .modal-dialog {
-     width: 1170px;
+.modal-content {
+  button {
+    font-size: 60px;
+    font-weight: 400;
+    width: 100px;
+    height: 100px;
   }
 }
