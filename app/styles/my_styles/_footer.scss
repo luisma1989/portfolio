@@ -5,47 +5,37 @@
 .copyright {
     background-color: #1A1D22;
     padding-bottom: 65px;
-    padding-top: 65px;
+    padding-top: 40px;
     border-bottom: 3px solid #f39c12;
-}
-
-.copyright h2 {
-    height: 0px;
-    margin: 0px;
+    h2 {
+        height: 0px;
+        margin: 0px;
+    }
 }
 
 .copy_right_text {
     width: 50%;
-}
-
-.copy_right_text p {
-    color: #8C8B8A;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 15px;
-}
-
-.copy_right_text p a {
-    text-decoration: none;
-    color: #f39c12;
-}
-
-.copy_right_text p span {
-    font-weight: 300;
+    p {
+        color: #8C8B8A;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 15px;
+        a {
+            text-decoration: none;
+            color: #f39c12;
+        }
+        span {
+            font-weight: 300;
+        }
+    }
 }
 
 .scroll_top {
     text-align: right;
-}
-
-.scroll_top a {
-    background: #f39c12;
-    padding: 25px;
-}
-
-.scroll_top a i {
-    color: #fff;
-    font-size: 25px;
+    a i {
+        color: #fff;
+        font-size: 65px;
+    }
 }
 
 input:-webkit-autofill,

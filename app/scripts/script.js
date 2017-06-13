@@ -43,14 +43,7 @@ $(document).ready(function() {
                 'background-color': 'rgba(59, 59, 59, 0)'
             });
         }
-    });
-    // MENU SECTION ACTIVE
-    $('.navbar-nav li a').click(function() {
-        $('.navbar-nav li a').parent().removeClass('active');
-        $(this).parent().addClass('active');
-    });
-    // Hilight MENU on SCROLl
-    $(window).scroll(function() {
+        // Hilight MENU on SCROLl
         $('.page').each(function() {
             var bb = $(this).attr('id');
             var hei = $(this).outerHeight();
@@ -60,6 +53,11 @@ $(document).ready(function() {
                 uu = $('.navbar-nav li a[href=#' + bb + ']').parent().addClass('active');
             }
         });
+    });
+    // MENU SECTION ACTIVE
+    $('.navbar-nav li a').click(function() {
+        $('.navbar-nav li a').parent().removeClass('active');
+        $(this).parent().addClass('active');
     });
     //SMOOTH MENU SCROOL
     $('a[href*=#]:not([href=#])').click(function() {
